@@ -1,0 +1,170 @@
+0000.001 (0) Opened log file at time: Fri, 30 Jun 2023 05:07:00 +0000 on http://dumpz.test
+0000.015 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.2 PHP: 7.4.33 (apache2handler, Windows NT DESKTOP-6SP90LG 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.30 (max packet size=536870912) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1s PHP/7.4.33 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 50.9M | 34M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.019 (0) Free space on disk containing Updraft's temporary directory: 12786.2 MB
+0000.035 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.040 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.329 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1688010328, seconds_ago=91292)
+0000.350 (0) Set semaphore last lock (fd) time to 2023-06-30 05:07:00
+0000.354 (0) Semaphore lock (fd) complete
+0000.379 (0) Backup run: resumption=0, nonce=7d6577ebc4d1, file_nonce=7d6577ebc4d1 begun at=1688101620 (0s ago), job type=backup
+0000.388 (0) Scheduling a resumption (1) after 300 seconds (1688101920) in case this run gets aborted
+0000.539 (0) Checking if we have a zip executable available
+0000.556 (0) Creation of backups of directories: beginning
+0000.573 (0) No backup of plugins: excluded by user's options
+0000.582 (0) No backup of themes: excluded by user's options
+0000.586 (0) No backup of uploads: excluded by user's options
+0000.589 (0) No backup of others: excluded by user's options
+0000.617 (0) Saving backup status to database (elements: 0)
+0000.635 (0) Beginning creation of database dump (WordPress DB)
+0000.641 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0001.335 (0) Table wp_options: Total expected rows (via COUNT): 555
+0002.197 (0) Table wp_options: Rows added in this batch (next record: 59292): 551 (uncompressed bytes in this segment=2587705) in 1.49 seconds
+0002.235 (0) Table wp_options: finishing file(s) (2, 433.1 KB)
+0003.969 (0) Table wp_users: Total expected rows (via COUNT): 3
+0003.976 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.999 (0) Table wp_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1762) in 1.75 seconds
+0004.034 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0005.003 (0) Table wp_usermeta: Total expected rows (via COUNT): 71
+0005.014 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.033 (0) Table wp_usermeta: Rows added in this batch (next record: 72): 71 (uncompressed bytes in this segment=8289) in 0.98 seconds
+0005.066 (0) Table wp_usermeta: finishing file(s) (2, 2.8 KB)
+0006.016 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 6
+0006.023 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.039 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 190): 6 (uncompressed bytes in this segment=4270) in 0.96 seconds
+0006.064 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1 KB)
+0006.094 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0006.111 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=623) in 0.03 seconds
+0006.135 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0007.857 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0007.907 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.920 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=704) in 1.76 seconds
+0007.962 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0010.398 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 19
+0010.546 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.658 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 304): 19 (uncompressed bytes in this segment=3125) in 2.67 seconds
+0011.720 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.8 KB)
+0012.113 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0012.416 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.49 seconds
+0013.243 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0014.884 (0) Table wp_comments: Total expected rows (via COUNT): 19
+0015.023 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.425 (0) Table wp_comments: Rows added in this batch (next record: 20): 19 (uncompressed bytes in this segment=10882) in 1.95 seconds
+0015.691 (0) Table wp_comments: finishing file(s) (2, 3 KB)
+0015.882 (0) Table wp_links: Total expected rows (via COUNT): 0
+0015.988 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.12 seconds
+0016.108 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0016.785 (0) Table wp_postmeta: Total expected rows (approximate): 101494
+0035.173 (0) Table wp_postmeta: Rows added in this batch (next record: 80156): 80000 (uncompressed bytes in this segment=19136976) in 19.00 seconds
+0035.815 (0) Table wp_postmeta: Total expected rows (via COUNT): 98139
+0039.170 (0) Table wp_postmeta: Rows added in this batch (next record: 98353): 18139 (uncompressed bytes in this segment=3697152) in 3.83 seconds
+0039.503 (0) Table wp_postmeta: finishing file(s) (3, 5012.2 KB)
+0039.685 (0) Table wp_posts: Total expected rows (approximate): 4797
+0045.864 (0) Table wp_posts: Rows added in this batch (next record: 5056): 4997 (uncompressed bytes in this segment=3067183) in 6.29 seconds
+0046.277 (0) Table wp_posts: finishing file(s) (2, 491.7 KB)
+0046.307 (0) Table wp_term_relationships: Total expected rows (approximate): 3511
+0046.555 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 3511 (uncompressed bytes in this segment=61730) in 0.26 seconds
+0046.705 (0) Table wp_term_relationships: finishing file(s) (2, 16.8 KB)
+0047.139 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2704
+0047.516 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2704): 2704 (uncompressed bytes in this segment=98811) in 0.48 seconds
+0047.559 (0) Table wp_term_taxonomy: finishing file(s) (2, 14.6 KB)
+0047.994 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0048.597 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 1.02 seconds
+0048.668 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0048.692 (0) Table wp_terms: Total expected rows (approximate): 2776
+0049.267 (0) Table wp_terms: Rows added in this batch (next record: 2704): 2704 (uncompressed bytes in this segment=311523) in 0.58 seconds
+0049.459 (0) Table wp_terms: finishing file(s) (2, 42.5 KB)
+0049.487 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0049.493 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.02 seconds
+0049.520 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0049.551 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0049.557 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.02 seconds
+0049.583 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0049.691 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0049.703 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1090) in 0.03 seconds
+0049.730 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0052.523 (0) Table wp_rank_math_404_logs: Total expected rows (via COUNT): 35
+0053.030 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.048 (0) Table wp_rank_math_404_logs: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=3983) in 3.30 seconds
+0053.070 (0) Table wp_rank_math_404_logs: finishing file(s) (2, 1.3 KB)
+0053.098 (0) Table wp_rank_math_analytics_gsc: Total expected rows (via COUNT): 0
+0053.107 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=965) in 0.02 seconds
+0053.142 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0053.171 (0) Table wp_rank_math_analytics_objects: Total expected rows (approximate): 4333
+0056.670 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 4396): 4396 (uncompressed bytes in this segment=827250) in 3.51 seconds
+0056.949 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 119.8 KB)
+0058.893 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 81
+0059.021 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.074 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 454): 81 (uncompressed bytes in this segment=9272) in 2.11 seconds
+0059.108 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 1.7 KB)
+0059.140 (0) Table wp_rank_math_internal_meta: Total expected rows (approximate): 4413
+0059.781 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 5044): 4413 (uncompressed bytes in this segment=79289) in 0.65 seconds
+0059.812 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 11.8 KB)
+0059.843 (0) Table wp_wp_phpmyadmin_extension__errors_log: Total expected rows (via COUNT): 0
+0059.856 (0) Table wp_wp_phpmyadmin_extension__errors_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=806) in 0.03 seconds
+0059.890 (0) Table wp_wp_phpmyadmin_extension__errors_log: finishing file(s) (2, 0.4 KB)
+0059.900 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_options.table.tmpr59293.gz (1/25/fopen): adding to final database dump
+0060.664 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_options.table.gz (2/25/fopen): adding to final database dump
+0060.679 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_users.table.tmpr4.gz (3/25/fopen): adding to final database dump
+0061.399 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_users.table.gz (4/25/fopen): adding to final database dump
+0061.514 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_usermeta.table.tmpr73.gz (5/25/fopen): adding to final database dump
+0063.072 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_usermeta.table.gz (6/25/fopen): adding to final database dump
+0063.076 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_actionscheduler_actions.table.tmpr191.gz (7/25/fopen): adding to final database dump
+0063.729 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_actionscheduler_actions.table.gz (8/25/fopen): adding to final database dump
+0063.737 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/25/fopen): adding to final database dump
+0064.470 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_actionscheduler_claims.table.gz (10/25/fopen): adding to final database dump
+0064.477 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/25/fopen): adding to final database dump
+0066.484 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_actionscheduler_groups.table.gz (12/25/fopen): adding to final database dump
+0066.504 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_actionscheduler_logs.table.tmpr305.gz (13/25/fopen): adding to final database dump
+0066.509 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_actionscheduler_logs.table.gz (14/25/fopen): adding to final database dump
+0066.516 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_commentmeta.table.tmpr0.gz (15/25/fopen): adding to final database dump
+0066.521 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_commentmeta.table.gz (16/25/fopen): adding to final database dump
+0066.525 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_comments.table.tmpr21.gz (17/25/fopen): adding to final database dump
+0066.534 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_comments.table.gz (18/25/fopen): adding to final database dump
+0066.551 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_links.table.tmpr0.gz (19/25/fopen): adding to final database dump
+0066.557 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_links.table.gz (20/25/fopen): adding to final database dump
+0066.571 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_postmeta.table.tmpr80156.gz (21/25/fopen): adding to final database dump
+0068.970 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_postmeta.table.tmpr98354.gz (22/25/fopen): adding to final database dump
+0069.388 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_postmeta.table.gz (23/25/fopen): adding to final database dump
+0069.499 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_posts.table.tmpr5057.gz (24/25/fopen): adding to final database dump
+0069.584 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_posts.table.gz (25/25/fopen): adding to final database dump
+0069.652 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_term_relationships.table.tmpr100001.gz (26/25/fopen): adding to final database dump
+0069.732 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_term_relationships.table.gz (27/25/fopen): adding to final database dump
+0069.903 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_term_taxonomy.table.tmpr2705.gz (28/25/fopen): adding to final database dump
+0070.354 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_term_taxonomy.table.gz (29/25/fopen): adding to final database dump
+0070.459 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_termmeta.table.tmpr0.gz (30/25/fopen): adding to final database dump
+0070.790 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_termmeta.table.gz (31/25/fopen): adding to final database dump
+0071.263 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_terms.table.tmpr2705.gz (32/25/fopen): adding to final database dump
+0071.766 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_terms.table.gz (33/25/fopen): adding to final database dump
+0071.802 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_e_events.table.tmpr0.gz (34/25/fopen): adding to final database dump
+0074.221 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_e_events.table.gz (35/25/fopen): adding to final database dump
+0074.365 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_litespeed_url.table.tmpr0.gz (36/25/fopen): adding to final database dump
+0074.686 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_litespeed_url.table.gz (37/25/fopen): adding to final database dump
+0074.804 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_litespeed_url_file.table.tmpr0.gz (38/25/fopen): adding to final database dump
+0075.442 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_litespeed_url_file.table.gz (39/25/fopen): adding to final database dump
+0075.596 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_404_logs.table.tmpr36.gz (40/25/fopen): adding to final database dump
+0076.144 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_404_logs.table.gz (41/25/fopen): adding to final database dump
+0076.197 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_analytics_gsc.table.tmpr0.gz (42/25/fopen): adding to final database dump
+0076.270 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_analytics_gsc.table.gz (43/25/fopen): adding to final database dump
+0076.300 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_analytics_objects.table.tmpr4397.gz (44/25/fopen): adding to final database dump
+0076.336 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_analytics_objects.table.gz (45/25/fopen): adding to final database dump
+0076.355 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_internal_links.table.tmpr455.gz (46/25/fopen): adding to final database dump
+0076.403 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_internal_links.table.gz (47/25/fopen): adding to final database dump
+0076.411 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_internal_meta.table.tmpr5045.gz (48/25/fopen): adding to final database dump
+0076.458 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_rank_math_internal_meta.table.gz (49/25/fopen): adding to final database dump
+0076.513 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_wp_phpmyadmin_extension__errors_log.table.tmpr0.gz (50/25/fopen): adding to final database dump
+0076.539 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db-table-wp_wp_phpmyadmin_extension__errors_log.table.gz (51/25/fopen): adding to final database dump
+0076.561 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db.gz: finished writing out complete database file (6157.9 KB)
+0077.146 (0) Total database tables backed up: 25 (backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db.gz, size: 6305838, sha1: 5263d753dc435bfcbe5193624cd1b516836c1816, sha256: 158e3ff2d89d0d24b8b3cf8e53879016221785693da881d8eefcd0ec1e0d34fb)
+0077.178 (0) backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0077.182 (0) Saving backup history. Total backup size: 6 MB
+0077.197 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0077.212 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0077.216 (0) No remote despatch: user chose no remote backup service
+0077.223 (0) Recording as successfully uploaded: backup_2023-06-30-0507_Dumpster_Rentalsz_7d6577ebc4d1-db.gz
+0077.232 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0077.241 (0) Resume backup (7d6577ebc4d1, 0): finish run
+0077.256 (0) Decremented the semaphore (fd) by 1
+0077.264 (0) Semaphore (fd) unlocked
+0077.268 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0077.284 (0) No email will/can be sent - the user has not configured an email address.
+0077.292 (0) The backup apparently succeeded and is now complete
